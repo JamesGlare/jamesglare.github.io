@@ -12,7 +12,7 @@
     For instance, in holographic optical tweezers, holograms are used to shape laser light that is then used to exert forces on microscopic particles.
     While there are numerous algorithms for finding holograms, few are geared towards producing small laser patterns with high accuracy.
     Here, I explore conditional generative models for phase-retrival in digital holography. 
-    <a href="/machine learning/2019/07/09/inverse_problems_con_gen_models.html"> Read my blog post here.</a> 
+    <a href="/machine learning/2019/07/09/inverse_problems_con_gen_models.html"> More coming soon...</a> 
 
 - name: Faster-than-free-diffusion reaction rates - Optimising Kramers problem
   i18n: 
@@ -25,7 +25,7 @@
     Following theoretical predictions by my coauthors, I show experimentally that for certain barrier shapes, this scaling law is inverted. 
     In other words, reaction rates may actually increase with increasing barrier height.
     In my experiments, I construct fine-tuned barriers using an automated holographic optical tweezers setup and measure the
-    mean first-passage time of escape. <a href="/blog/"> Read more...</a> 
+    mean first-passage time of escape. <a href=""> More coming soon...</a> 
 
 - name: Fick-Jacobs theory and entropic transport in microfluidic systems
   i18n: 
