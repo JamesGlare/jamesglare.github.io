@@ -9,6 +9,7 @@ tags: [GAN,VAE, generative models, inverse problems, neural networks, machine le
 icon: inverse-icon.png
 ---
 
-Below you find a first glimpse of hologram-predictions made by my model.
+Below you find a first glimpse of hologram-predictions made by my model.<br>
+
 <!-- ![edit]({{ site.img_path }}/inverseProblems/cVAEholo.gif) -->
 <img src="{{ site.img_path }}/inverseProblems/cVAEholo.gif" width="50%">
