@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects: GitHub, Motivation, HTML5, ReactJS, Machine Learing, Python, Sleeping
-percentage: 100, 35, 65, 80, 70, 90, 50
+aspects:    C++,    CUDA,   Python,   MatLab,   Java,   Machine Learning,   Optics,   Stochastic Calculus
+percentage: 90,    65,     80,       80,       50,     90,                 70,       80

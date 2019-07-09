@@ -1,18 +1,19 @@
 # links section data
-- last_name: Name 1
-  first_name:
-  desc: CEO
-  website: https://www.google.com
-  email: ceo@google.com
+- last_name: Lab Website
+  first_name: Prof. Keyser
+  desc: University of Cambridge
+  website: http://people.bss.phy.cam.ac.uk/~ufk20/
+  email: 
 
-- last_name: Donate
-  first_name: Jalpc
-  desc: Support Jalpc
-  website: http://www.jarrekk.com/donate/
-  email: me@jarrekk.com
 
-- last_name: LN
-  first_name: FN
-  desc: COO
-  website: https://github.com
-  email: coo@google.com
+- last_name: My academic
+  first_name: Publications
+  desc: Google Scholar
+  website: https://scholar.google.de/citations?user=Kvy6GHYAAAAJ
+  email: 
+
+- last_name: Sailing @
+  first_name: Cambridge Uni
+  desc: Sailing Club in Cambridge
+  website: https://www.cuyc.org.uk/
+  email: info@cuyc.org.uk

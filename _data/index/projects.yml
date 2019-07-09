@@ -1,22 +1,81 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Jalpc
-  i18n: jalpc
-  gh_user: jarrekk
-  repo: Jalpc
-  img: /static/assets/img/landing/jekyll.png
-  desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
+- name: Inverse digital holography using conditional generative models
+  i18n: 
+  url: 
+  gh_user: JamesGlare
+  repo: Neural-Net-LabView-DLL
+  img: /static/assets/img/landing/holo_grab.jpg
+  desc: >
+    While holograms constitute powerful optical instruments, it can be difficult to find a suitable hologram for a given task.
+    For instance, in holographic optical tweezers, holograms are used to shape laser light that is then used to exert forces on microscopic particles.
+    While there are numerous algorithms for finding holograms, few are geared towards producing small laser patterns with high accuracy.
+    Here, I explore conditional generative models for phase-retrival in digital holography. 
+    <a href="/machine learning/2019/07/09/inverse_problems_con_gen_models.html"> Read my blog post here.</a> 
 
-- name: Python
-  i18n: cpython
-  gh_user: python
-  repo: cpython
-  img: /static/assets/img/landing/python.png
-  desc: This project is other's project. I use another request to get repo's information.
+- name: Faster-than-free-diffusion reaction rates - Optimising Kramers problem
+  i18n: 
+  gh_user: 
+  repo: 
+  img: /static/assets/img/landing/kramers_speed_up_pic.jpg
+  desc: >
+    Kramers' theory provides a comprehensive framework for thermally-activated reactions. 
+    Crucially, it explains the Arrhenius-like scaling of reaction rates in the limit of high activation-energy barriers.
+    Following theoretical predictions by my coauthors, I show experimentally that for certain barrier shapes, this scaling law is inverted. 
+    In other words, reaction rates may actually increase with increasing barrier height.
+    In my experiments, I construct fine-tuned barriers using an automated holographic optical tweezers setup and measure the
+    mean first-passage time of escape. <a href="/blog/"> Read more...</a> 
 
-- name: Google
-  i18n: google
-  url: https://google.com
-  img: /static/assets/img/landing/google.png
-  desc: This is another project.
+- name: Fick-Jacobs theory and entropic transport in microfluidic systems
+  i18n: 
+  gh_user: 
+  repo: 
+  img: /static/assets/img/landing/particleInCorrugatedChannel.jpg
+  desc: >
+    Microfluidic channels that vary in width provide a simple toy model for entropically-driven transport. 
+    Entropic forces cause Brownian transitions across constrictions to be shorter than across straight parts of a channel. Crucially, in microfluidic channels, the hydrodynamic friction a particle experiences depends on its proximity to obstructions.
+    When this effect is accounted for, mean first-passage times adhere closely to Fick-Jacobs predictions, which are based on a free-energy that is 
+    marginalised along the lateral direction. However, central results of this project have been published elsewhere... <a href="https://www.pnas.org/content/114/36/9564.short"> Read.</a>
+
+- name: Experimental evidence of symmetry breaking of transition-path times
+  i18n: 
+  gh_user: 
+  repo: 
+  url: 
+  img: /static/assets/img/landing/path_times.png
+  desc: >
+    Various first-passage times adhere to a fundamental inversion symmetry, which is related to microscopic reversibility. 
+    For instance, the mean time of escape from a 1D interval [<i>a</i>,<i>b</i>] when initialised in the centre, <i>x<sub>0</sub>=(a+b)/2</i>, is equivalent at both exits: <i>a</i> and <i>b</i>. 
+    Crucially, this remains so under the influence of a (constant) drift-force <i> f(x)=f<sub>0</sub></i>. 
+    In our paper, we systematically explore this symmetry and demonstrate how it can break down on the meso- and molecular scale. 
+    We furthermore provide examples how this might be useful for analyzing molecular processes. 
+    <a href="https://www.nature.com/articles/s41467-018-07873-9"> Read the paper (open access). </a>
+
+- name: Review - Broken detailed balance and non-equilibrium dynamics in living systems
+  i18n: 
+  gh_user: 
+  repo: 
+  url: 
+  img: /static/assets/img/landing/review_pic.jpg
+  desc: >
+    Living systems operate far from thermodynamic equilibrium. Enzymatic activity can induce broken detailed balance at the molecular scale. 
+    This breakdown of detailed balance is crucial to achieve biological functions such as high-fidelity transcription and translation, 
+    sensing, adaptation, biochemical patterning, and force generation. While biological systems such as motor enzymes violate detailed balance at 
+    the molecular scale, it remains unclear how non-equilibrium dynamics [...]
+    <a href="https://iopscience.iop.org/article/10.1088/1361-6633/aab3ed/meta"> Read the review article (open access). </a>
+
+- name: Broken detailed balance of filament dynamics in active networks
+  i18n: 
+  gh_user: 
+  repo: 
+  url: 
+  img: /static/assets/img/landing/detailed_balance_prl.jpg
+  desc: >
+    Myosin motor proteins drive vigorous steady-state fluctuations in the actin cytoskeleton of cells. 
+    Endogenous embedded semiflexible filaments such as microtubules, or added filaments such as single-walled carbon nanotubes 
+    are used as novel tools to noninvasively track equilibrium and nonequilibrium fluctuations in such biopolymer networks. 
+    Here, we analytically calculate shape fluctuations of semiflexible probe filaments in a viscoelastic environment, 
+    driven out of equilibrium by motor activity. [...]
+    <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.116.248301"> Read the first ... </a><br>
+    <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.96.022408"> ... or a more in-depth paper. </a>

@@ -13,7 +13,7 @@
 
 <div class="navbar-wrapper">
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
+        <div class="navbar-container">
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                     <span class="sr-only">Toggle navigation</span>
@@ -24,19 +24,26 @@
                 <a class="navbar-brand" href="{{ "/" | prepend: site.baseurl }}">{{ site.title }}</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a class="page-scroll" href="{{ "blog/" | prepend: site.baseurl }}">{{ site.index.home }}</a></li>
-                    {% for tag in site.data.blog %}
-                        {% if tag.name != 'Donate' or site.donation %}
-                        {% if page.title == tag.name %}
-                        <li class="active">
+                    <ul class="nav navbar-nav navbar-right" id="i18_navbar">
+                      {% for section in site.data.landing %}
+                      <li>
+                        {% if section.page %}
+                          <a class="page-scroll" href="/{{ section.page}} ">
                         {% else %}
-                        <li>
+                          <a class="page-scroll" href="/{{ section.id | prepend: '#'}} ">
                         {% endif %}
-                        <a class="page-scroll" href="{{ tag.href | prepend: site.baseurl }}">{{ tag.name }}</a></li>
-                        {% endif %}
-                    {% endfor %}
-                </ul>
+                          <span data-i18n="{{ section.i18n }}">{{ section.name }}</span>
+                        </a>
+                      </li>
+                      {% endfor %}
+                      {% for language in site.data.index.language %}
+                      <li>
+                        <a id="set_lang_{{ language.locale }}" class="btn btn-sm set_{{ language.locale }}" data-locale="{{ language.locale }}">
+                          <img src="{{ language.flag | prepend: site.baseurl }}" height="16" width="16">
+                        </a>
+                      </li>
+                      {% endfor %}
+                    </ul>
             </div>
         </div>
     </nav>

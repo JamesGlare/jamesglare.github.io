@@ -25,7 +25,7 @@ h3 {
 }
 
 h4 {
-  font-size: 14px;
+  font-size: 18pt;
 }
 
 h5 {
@@ -372,6 +372,7 @@ button.dim {
   background-color: #3385FF;
   border-color: #3385FF;
   color: #FFF;
+  font-size: 16pt;
   &.active {
     background-color: #0073B1;
     border-color: #0073B1;
@@ -800,7 +801,7 @@ button.dim:active:before {
 }
 
 .img-circle {
-  border-radius: 50%;
+  border-radius: 5%;
 }
 
 .btn-circle {
@@ -809,14 +810,14 @@ button.dim:active:before {
   padding: 6px 0;
   border-radius: 15px;
   text-align: center;
-  font-size: 12px;
+  font-size: 20pt;
   line-height: 1.428571429;
   &.btn-lg {
     width: 50px;
     height: 50px;
     padding: 10px 16px;
     border-radius: 25px;
-    font-size: 18px;
+    font-size: 20pt;
     line-height: 1.33;
   }
 }
@@ -2402,17 +2403,21 @@ body {
       padding-left: 15px;
     }
   }
+
+  .navbar-container{
+    width: 80%;
+  }
   .navbar-default {
     &.navbar-scroll {
       background-color: #fff;
       border-color: #fff;
       padding: 15px 0;
     }
-    background-color: transparent;
+    background-color: #ffffffaa;
     border-color: transparent;
     transition: all .3s ease-in-out 0s;
     .nav li a {
-      color: #fff;
+      color: #333333;
       font-family: 'Open Sans', helvetica, arial, sans-serif;
       font-weight: 700;
       letter-spacing: 1px;
@@ -2459,6 +2464,8 @@ body {
       color: #fff;
       height: auto;
       display: block;
+      position:absolute;
+      left:10%;
       font-size: 14px;
       background: #3385FF;
       padding: 15px 20px;
@@ -2626,6 +2633,7 @@ body {
     background: #f4f4f4;
     margin-top: 60px;
   }
+
   .team-member {
     text-align: center;
     img {
@@ -2644,19 +2652,57 @@ body {
       background: #3385FF;
     }
   }
+  .container{
+    width: 100%;
+  }
+  .row{
+    width:100%;
+  }
+  .proj_list{
+    display:table;
+    table-layout: fixed;
+    width: 100%;
+  }
+  .proj-ttle{
+  }
+  .proj_ad{
+    display:inline-block;
+    list-style: none;
+    width: 100%;
+    height: 200px;
+    position:relative;
+    left:20%;
+  }
+  .proj_text{
+    margin:20px;
+    width:100%;  
+    p{
+      font-size: 12pt;
+      a {
+        color: #3385FF;
+        font-style: italic;
+      }
+    }
+  }
   .img-small {
-    height: 88px;
-    width: 88px;
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+  }
+
+  .img-left{
+    margin:10px;
+    float:left;
   }
   .btn-primary {
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16pt;
   }
   .testimonials {
     padding-top: 80px;
     padding-bottom: 90px;
     background-color: #3385FF;
-    background-image: url(../assets/img/landing/avatar_all.png);
+    background-image: url(../assets/img/landing/blog_pic.jpg);
   }
   .contact {
     background-image: url(../assets/img/landing/word_map.png);
