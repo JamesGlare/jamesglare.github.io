@@ -27,7 +27,7 @@
     In my experiments, I construct fine-tuned barriers using an automated holographic optical tweezers setup and measure the
     mean first-passage time of escape. <a href=""> More coming soon...</a> 
 
-- name: Fick-Jacobs theory and entropic transport in microfluidic systems
+- name: <td>Fick-Jacobs</td> theory and entropic transport in microfluidic systems
   i18n: 
   gh_user: 
   repo: 
@@ -36,7 +36,8 @@
     Microfluidic channels that vary in width provide a simple toy model for entropically-driven transport. 
     Entropic forces cause Brownian transitions across constrictions to be shorter than across straight parts of a channel. Crucially, in microfluidic channels, the hydrodynamic friction a particle experiences depends on its proximity to obstructions.
     When this effect is accounted for, mean first-passage times adhere closely to Fick-Jacobs predictions, which are based on a free-energy that is 
-    marginalised along the lateral direction. However, central results of this project have been published elsewhere... <a href="https://www.pnas.org/content/114/36/9564.short"> Read.</a>
+    marginalised along the lateral direction. <a href=""> More coming soon...</a> 
+
 
 - name: Experimental evidence of symmetry breaking of transition-path times
   i18n: 

@@ -1,66 +1,6 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Georg-August University Göttingen
-    i18n: Undergraduate studies 
-  desc:
-    detail: Bachelors degree in physics with a minor in computer science.
-    i18n: company_a_desc
-  date:
-    detail: Oct 2009
-    i18n: company_a_date
-  job:
-    detail: Student
-    i18n: company_a_job
-  icon: fa-plus-square
-  present: true
-
-- name:
-    detail: École Normale Supérieure, Paris
-    i18n:  Graduate studies  
-  desc:
-    detail: Exchange year M1 (ICFP)
-    i18n: company_a_desc
-  date:
-    detail: Sep 2012
-    i18n: company_a_date
-  job:
-    detail: Student
-    i18n: company_a_job
-  icon: fa-plus-square
-  present: true
-
-- name:
-    detail: Georg-August University Göttingen
-    i18n: Graduate studies 
-  desc:
-    detail: M.Sc. in physics with a minor in computer science.
-    i18n: company_a_desc
-  date:
-    detail: Sep 2013
-    i18n: company_a_date
-  job:
-    detail: Student
-    i18n: company_a_job
-  icon: fa-plus-square
-  present: true
-
-
-- name:
-    detail: nanoTemper Technologies
-    i18n: company_b
-  desc:
-    detail: R&D intership
-    i18n: company_b_desc
-  date:
-    detail: Jun 2015
-    i18n: company_b_date
-  job:
-    detail: Intern (rapid prototyping)
-    i18n: company_b_job
-  icon: fa-plus-square
-
-- name:
     detail: University of Cambridge
     i18n: company_b
   desc:
@@ -73,3 +13,64 @@
     detail: PhD Student
     i18n: company_b_job
   icon: fa-plus-square
+
+
+- name:
+    detail: nanoTemper Technologies, Munich
+    i18n: company_b
+  desc:
+    detail: R&D intership (rapid prototyping of measurement devices for protein characterisation)
+    i18n: company_b_desc
+  date:
+    detail: Jun 2015
+    i18n: company_b_date
+  job:
+    detail: Intern 
+    i18n: company_b_job
+  icon: fa-plus-square
+
+- name:
+    detail: Georg-August University Göttingen
+    i18n: Graduate studies 
+  desc:
+    detail: M.Sc. in physics (1.0/4.0) (minor in computer science). Thesis in non-equilibrium thermodynamics with Christoph Schmidt. 
+    i18n: company_a_desc
+  date:
+    detail: Sep 2013
+    i18n: company_a_date
+  job:
+    detail: Student and Tutor (quantum- and statistical mechanics)
+    i18n: company_a_job
+  icon: fa-plus-square
+  present: true
+
+- name:
+    detail: École Normale Supérieure, Paris
+    i18n:  Graduate studies  
+  desc:
+    detail: Exchange year M1 incl. 6-month lab programming internship (java, imageJ) at Institut Curie
+    i18n: company_a_desc
+  date:
+    detail: Sep 2012
+    i18n: company_a_date
+  job:
+    detail: Student
+    i18n: company_a_job
+  icon: fa-plus-square
+  present: true
+
+- name:
+    detail: Georg-August University Göttingen
+    i18n: Undergraduate studies 
+  desc:
+    detail: B.Sc. (1.3/4.0) in physics (minor in computer science). Thesis in theoretical neuroscience with Marc Timme.
+    i18n: company_a_desc
+  date:
+    detail: Oct 2009
+    i18n: company_a_date
+  job:
+    detail: Student
+    i18n: company_a_job
+  icon: fa-plus-square
+  present: true
+
