@@ -2865,6 +2865,17 @@ body {
         border: none;
       }
     }
+    .proj_text{
+      margin:2px;
+      width:80%;  
+      p{
+        font-size: 12pt;
+        a {
+          color: #3385FF;
+          font-style: italic;
+        }
+      }
+    }
     .proj_ad{
       left: 0%;
       display:inline-block;
