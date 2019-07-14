@@ -58,6 +58,23 @@
     i18n: company_a_job
   icon: fa-plus-square
 
+
+- name:
+    detail: Penn-State University, State College, PA, USA
+    i18n: Summer Research Intern 
+  desc:
+    detail: Developed LEED correction algorithms in python.
+    i18n: company_a_desc
+  date:
+    detail: Aug - Oct 2011
+    i18n: company_a_date
+  job:
+    detail: Research intern
+    i18n: company_a_job
+  icon: fa-plus-square
+
+
+
 - name:
     detail: Georg-August University Göttingen
     i18n: Undergraduate studies 
