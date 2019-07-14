@@ -25,7 +25,7 @@ The following pictures should give you an impression of the transformation. You 
 </div>
 The grayscale of the SLM patterns on the left encode the phase shift that each pixel of the SLM imparts on the beam. The colorised pattern on the right shows the intensity distribution that the CMOS camera in my setup perceives. <br>
 
-Now, the problem 
+<i> More coming soon... </i>
 
 Below you find a first glimpse of hologram-predictions made by my model.<br>
 <div class="blog_img">
