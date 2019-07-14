@@ -2785,6 +2785,13 @@ body {
     left:20%;
     width: 60%;
   }
+  .blog_text{
+    position:relative;
+    left:15%;
+    text-align:justify;
+    font-size: 12pt;
+    width: 70%;
+  }
 }
 
 @media (max-width: 992px) {
@@ -2897,12 +2904,5 @@ body {
   }
 }
 
-.blog_text{
-  position:relative;
-  left:15%;
-  text-align:justify;
-  font-size: 12pt;
-  width: 70%;
-}
 
 
