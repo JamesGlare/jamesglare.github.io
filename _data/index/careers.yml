@@ -58,7 +58,6 @@
     i18n: company_a_job
   icon: fa-plus-square
 
-
 - name:
     detail: Penn-State University, State College, PA, USA
     i18n: Summer Research Intern 
@@ -72,8 +71,6 @@
     detail: Research intern
     i18n: company_a_job
   icon: fa-plus-square
-
-
 
 - name:
     detail: Georg-August University Göttingen
