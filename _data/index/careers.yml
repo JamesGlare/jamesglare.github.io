@@ -1,7 +1,7 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Microsoft Research Cambridge
+    detail: Microsoft Research Cambridge, UK
     i18n: company_b
   desc:
     detail: AI Resident
@@ -10,7 +10,7 @@
     detail: Sep 2019
     i18n: company_b_date
   job:
-    detail: Software/Machine Learning
+    detail: Software Development/Machine Learning
     i18n: company_b_job
   icon: fa-plus-square
   present: true
