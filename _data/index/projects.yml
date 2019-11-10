@@ -12,7 +12,7 @@
     For instance, in holographic optical tweezers, holograms are used to shape laser light that is then used to exert forces on microscopic particles.
     While there are numerous algorithms for finding holograms, few are geared towards producing small laser patterns with high accuracy.
     Here, I explore conditional generative models for phase-retrival in digital holography. 
-    <a href="/machine learning/2019/07/09/inverse_problems_con_gen_models.html"> More coming soon...</a> 
+    <a href="https://arxiv.org/abs/1911.00904"> Read the preprint.</a> 
 
 - name: Faster-than-free-diffusion reaction rates - Optimising Kramers problem
   i18n: 
