@@ -25,7 +25,7 @@
     Following theoretical predictions by my coauthors, I show experimentally that for certain barrier shapes, this scaling law is inverted. 
     In other words, reaction rates may actually increase with increasing barrier height.
     In my experiments, I construct fine-tuned barriers using an automated holographic optical tweezers setup and measure the
-    mean first-passage time of escape. <a href="https://www.pnas.org/content/early/2019/12/13/1910677116"> Read the paper...</a> <a href="https://www.pnas.org/content/early/2020/01/13/1921425117.full">... or a commentary (open access). </a> 
+    mean first-passage time of escape. <a href="https://www.pnas.org/content/early/2019/12/13/1910677116"> Read the paper...</a> <a href="https://www.pnas.org/content/early/2020/01/13/1921425117.full"> or a commentary (open access). </a> 
 
 - name: <td>Fick-Jacobs</td> theory and entropic transport in microfluidic systems
   i18n: 
