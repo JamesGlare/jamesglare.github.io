@@ -14,7 +14,7 @@
     i18n: company_b_job
   icon: fa-plus-square
   present: true
-  
+
 - name:
     detail: Microsoft Research Cambridge, UK
     i18n: company_b
@@ -28,7 +28,7 @@
     detail: Software Development/Machine Learning
     i18n: company_b_job
   icon: fa-plus-square
-  present: true
+  present: false
 
 - name:
     detail: University of Cambridge
