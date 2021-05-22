@@ -4,13 +4,13 @@
     detail: Microsoft Research Cambridge, UK
     i18n: company_b
   desc:
-    detail: Research Engineer
+    detail:  Software Development/Machine Learning
     i18n: company_b_desc
   date:
     detail: Sep 2020
     i18n: company_b_date
   job:
-    detail: Software Development/Machine Learning
+    detail: Research Engineer in the Cloud Infrastructure Team.
     i18n: company_b_job
   icon: fa-plus-square
   present: true
@@ -19,13 +19,13 @@
     detail: Microsoft Research Cambridge, UK
     i18n: company_b
   desc:
-    detail: AI Resident
+    detail: I worked on a customer-facing recommendation system based on a natural-language-processing model, as well as on a physics- and computer-vision-based research project. 
     i18n: company_b_desc
   date:
     detail: Sep 2019
     i18n: company_b_date
   job:
-    detail: Software Development/Machine Learning
+    detail: AI resident
     i18n: company_b_job
   icon: fa-plus-square
   present: false
