@@ -62,7 +62,7 @@
     detail: Georg-August University Göttingen
     i18n: Graduate studies 
   desc:
-    detail: M.Sc. in physics (minor in computer science). Thesis in non-equilibrium thermodynamics with Christoph Schmidt. My thesis was awarded the Berliner-Ungewitter award by the Physics Faculty in Göttingen.
+    detail: M.Sc. in physics (minor in computer science). Thesis in non-equilibrium thermodynamics with Christoph Schmidt. My thesis was awarded the Berliner-Ungewitter Award by the physics faculty in Göttingen.
     i18n: company_a_desc
   date:
     detail: Sep 2013 - May 2015
@@ -104,7 +104,7 @@
     detail: Georg-August University Göttingen
     i18n: Undergraduate studies 
   desc:
-    detail: B.Sc. in physics (minor in computer science). Thesis in theoretical neuroscience with Marc Timme. During my Bachelors and Masters degrees, I received a scholarship by the German Academic Foundation.
+    detail: B.Sc. in physics (minor in computer science). Thesis in theoretical neuroscience with Marc Timme. During my bachelor's and master's degrees, I received a scholarship by the German Academic Foundation.
     i18n: company_a_desc
   date:
     detail: Oct 2009 - Mar 2012
@@ -131,7 +131,7 @@
     detail: Jugend-forscht Federal Champion
     i18n: Reversible Holographic Data-Storage using Spiropyrans
   desc:
-    detail: Youth-science project demonstrating a reusable holographic data-storage device based on optically-switchable organic compounds.
+    detail: Together with two friends, I built a reusable holographic data-storage device based on optically-switchable organic compounds.
     Read our article in <a href="https://www.junge-wissenschaft.ptb.de/fileadmin/paper/bis_2017/pdf/juwi-83-2009-01.pdf"> www.junge-wissenschaft.ptb.de <\a>.
     i18n: company_a_desc
   date:
