@@ -131,8 +131,7 @@
     detail: Jugend-forscht Federal Champion
     i18n: Reversible Holographic Data-Storage using Spiropyrans
   desc:
-    detail: Together with two friends, I built a reusable holographic data-storage device based on optically-switchable organic compounds.
-    Read our article in <a href="https://www.junge-wissenschaft.ptb.de/fileadmin/paper/bis_2017/pdf/juwi-83-2009-01.pdf">www.junge-wissenschaft.ptb.de</a>.
+    detail: Together with two friends, I built a reusable holographic data-storage device based on optically-switchable organic compounds. Read our article in <a href="https://www.junge-wissenschaft.ptb.de/fileadmin/paper/bis_2017/pdf/juwi-83-2009-01.pdf">www.junge-wissenschaft.ptb.de</a>.
     i18n: company_a_desc
   date:
     detail: June 2007 - May 2008
