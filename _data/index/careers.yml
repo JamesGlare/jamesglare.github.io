@@ -114,7 +114,7 @@
     i18n: company_a_job
   icon: fa-plus-square
 - name:
-    detail: Abitur (A-levels) (Ricarda-Huch Schule, Braunschweig, Germany)
+    detail: Abitur (A-levels)
     i18n: I received graduation prizes by the German Physical Society as well as the German Chemical Society.
   desc:
     detail: 
@@ -123,7 +123,7 @@
     detail: May 2008
     i18n: company_a_date
   job:
-    detail: High School
+    detail: High School (Ricarda-Huch Schule, Braunschweig, Germany)
     i18n: company_a_job
   icon: fa-plus-square
 
@@ -137,6 +137,6 @@
     detail: June 2007 - May 2008
     i18n: company_a_date
   job:
-    detail: High School
+    detail: High School (Ricarda-Huch Schule, Braunschweig, Germany)
     i18n: company_a_job
   icon: fa-plus-square
