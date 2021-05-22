@@ -4,7 +4,7 @@
     detail: Microsoft Research Cambridge, UK
     i18n: company_b
   desc:
-    detail: Research Engineer
+    detail: Research Engineer (Machine Learning, Software engineering, optics)
     i18n: company_b_desc
   date:
     detail: Sep 2020
@@ -34,7 +34,7 @@
     detail: University of Cambridge
     i18n: company_b
   desc:
-    detail: PhD Studies (stochastic thermodynamics, optical tweezers, and machine learning)
+    detail: PhD Studies (stochastic thermodynamics, optical tweezers, and machine learning). I am grateful to the University and the EU for the Marie-Curie Grant that funded my research.
     i18n: company_b_desc
   date:
     detail: Oct 2015 - Sep 2019
@@ -62,7 +62,7 @@
     detail: Georg-August University Göttingen
     i18n: Graduate studies 
   desc:
-    detail: M.Sc. in physics (minor in computer science). Thesis in non-equilibrium thermodynamics with Christoph Schmidt. 
+    detail: M.Sc. in physics (minor in computer science). Thesis in non-equilibrium thermodynamics with Christoph Schmidt. My thesis was awarded the Berliner-Ungewitter award by the Physics Faculty in Göttingen.
     i18n: company_a_desc
   date:
     detail: Sep 2013 - May 2015
@@ -114,3 +114,16 @@
     i18n: company_a_job
   icon: fa-plus-square
 
+- name:
+    detail: Jugend-forscht Federal Champion
+    i18n: Reversible Holographic Data-Storage using Spiropyrans
+  desc:
+    detail: Youth-science project demonstrating a reusable holographic data-storage device based on optically-switchable (photochromism) organic compounds. See https://www.junge-wissenschaft.ptb.de/fileadmin/paper/bis_2017/pdf/juwi-83-2009-01.pdf
+    i18n: company_a_desc
+  date:
+    detail: June 2007 - May 2008
+    i18n: company_a_date
+  job:
+    detail: High School
+    i18n: company_a_job
+  icon: fa-plus-square
