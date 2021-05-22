@@ -114,10 +114,10 @@
     i18n: company_a_job
   icon: fa-plus-square
 - name:
-    detail: Community Service (draft)
-    i18n: Instead of military service, I worked as database- and software-engineer at a local hospital.
+    detail: Community Service 
+    i18n:  Compulsory military service (draft)
   desc:
-    detail: 
+    detail: Instead of military service, I worked as database- and software-engineer at a local hospital.
     i18n: company_a_desc
   date:
     detail: August 2008 - June 2009
