@@ -4,7 +4,7 @@
     detail: Microsoft Research Cambridge, UK
     i18n: company_b
   desc:
-    detail: Research Engineer (Machine Learning, Software engineering, optics)
+    detail: Research Engineer
     i18n: company_b_desc
   date:
     detail: Sep 2020
@@ -104,7 +104,7 @@
     detail: Georg-August University Göttingen
     i18n: Undergraduate studies 
   desc:
-    detail: B.Sc. in physics (minor in computer science). Thesis in theoretical neuroscience with Marc Timme.
+    detail: B.Sc. in physics (minor in computer science). Thesis in theoretical neuroscience with Marc Timme. During my Bachelors and Masters degrees, I received a scholarship by the German Academic Foundation.
     i18n: company_a_desc
   date:
     detail: Oct 2009 - Mar 2012
@@ -113,12 +113,26 @@
     detail: Student
     i18n: company_a_job
   icon: fa-plus-square
+- name:
+    detail: Abitur (A-levels) (Ricarda-Huch Schule, Braunschweig, Germany)
+    i18n: I received graduation prizes by the German Physical Society as well as the German Chemical Society.
+  desc:
+    detail: 
+    i18n: company_a_desc
+  date:
+    detail: May 2008
+    i18n: company_a_date
+  job:
+    detail: High School
+    i18n: company_a_job
+  icon: fa-plus-square
 
 - name:
     detail: Jugend-forscht Federal Champion
     i18n: Reversible Holographic Data-Storage using Spiropyrans
   desc:
-    detail: Youth-science project demonstrating a reusable holographic data-storage device based on optically-switchable (photochromism) organic compounds. See https://www.junge-wissenschaft.ptb.de/fileadmin/paper/bis_2017/pdf/juwi-83-2009-01.pdf
+    detail: Youth-science project demonstrating a reusable holographic data-storage device based on optically-switchable organic compounds.
+    Read our article in <a href="https://www.junge-wissenschaft.ptb.de/fileadmin/paper/bis_2017/pdf/juwi-83-2009-01.pdf"> www.junge-wissenschaft.ptb.de <\a>.
     i18n: company_a_desc
   date:
     detail: June 2007 - May 2008
