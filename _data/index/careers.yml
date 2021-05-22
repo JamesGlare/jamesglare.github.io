@@ -114,6 +114,19 @@
     i18n: company_a_job
   icon: fa-plus-square
 - name:
+    detail: Community Service (draft)
+    i18n: Instead of military service, I worked as database- and software-engineer at a local hospital.
+  desc:
+    detail: 
+    i18n: company_a_desc
+  date:
+    detail: August 2008 - June 2009
+    i18n: company_a_date
+  job:
+    detail: Städtisches Klinikum Braunschweig
+    i18n: company_a_job
+  icon: fa-plus-square
+- name:
     detail: Abitur (A-levels)
     i18n: I received graduation prizes by the German Physical Society as well as the German Chemical Society.
   desc:
