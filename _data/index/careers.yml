@@ -1,10 +1,25 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
+    detail: Meta AI, London
+    i18n: company_c
+  desc:
+    detail: ML engineer
+    i18n: company_c_desc
+  date:
+    detail: Oct 2025
+    i18n: company_c_date
+  job:
+    detail: ML engineer in the superintelligence labs.
+    i18n: company_c_job
+  icon: fa-plus-square
+  present: true
+
+- name:
     detail: Microsoft Research Cambridge, UK
     i18n: company_b
   desc:
-    detail:  Software Development/Machine Learning
+    detail:  Machine Learning Researcher
     i18n: company_b_desc
   date:
     detail: Sep 2020
@@ -13,7 +28,7 @@
     detail: Research Engineer in the Cloud Infrastructure Team.
     i18n: company_b_job
   icon: fa-plus-square
-  present: true
+  present: false
 
 - name:
     detail: Microsoft Research Cambridge, UK
