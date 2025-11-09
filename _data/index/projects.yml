@@ -1,6 +1,27 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: Analog-Optical Computer for AI Inference
+  i18n:
+  url: https://www.nature.com/articles/s41586-025-09430-z
+  img: /static/assets/img/landing/aoc_pic.png 
+  desc: >
+    GPUs have enabled and fuelled the AI wave. However, their compute effiency is stagnant when normalized over precision, leading to an increasingly larger electricity footprint of AI.
+    Analog computation promises to increase efficiency somewhat but is insufficient in and of itself since data movement is usually the expensive part of the compute operation.
+    Optics has long been used as a means to transmit information independent of distance. In this work, we seek to combine the benefits of optics with analog computation to accelerate AI models and certain classes of optimization problems.
+    A change in compute architecture necessitates and enables changes in model architecture. Here, we propose a class of fixed-point AI models (see our ICML paper below) to run on our self-built computer. 
+    We show that these models can be correctly evaluated on our machine. Further, we show that this compute design could reach up to a 100x improvement in Flops/W compared to current state-of-the-art GPUs.
+- name: Implicit Languagemodels are RNN: Balancing Parallelization and Expressivity
+  i18n:
+  url: https://openreview.net/forum?id=5EbiopWH6e
+  img: static/assets/img/landing/implicit_languagemodels.png
+  desc: >
+    State-space models (SSMs) and transformers dominate the language modeling landscape. However, they are constrained to a lower computational complexity than classical recurrent neural networks (RNNs), limiting their expressivity.
+    In contrast, RNNs lack parallelization during training, raising fundamental questions about the trade off between parallelization and expressivity. We propose implicit SSMs, which iterate a transformation until convergence to a fixed point.
+    Theoretically, we show that implicit SSMs implement the non-linear state-transitions of RNNs. Empirically, we find that only approximate fixed-point convergence suffices, enabling the design of a scalable training curriculum that largely retains parallelization,
+    with full convergence required only for a small subset of tokens. Our approach demonstrates superior state-tracking capabilities on regular languages, surpassing transformers and SSMs.
+    We further scale implicit SSMs to natural language reasoning tasks and pretraining of large-scale language models up to 1.3B parameters on 207B tokens - representing, to our knowledge, the largest implicit model trained to date.
+    Notably, our implicit models outperform their explicit counterparts on standard benchmarks. Our code is publicly available at github.com/microsoft/implicit_languagemodels
 - name: Inverse digital holography using conditional generative models
   i18n: 
   url: 
