@@ -1,68 +1,137 @@
----
-layout: blog
-title: index
-permalink: /
----
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jannes Gladrow</title>
+    <meta name="description" content="ML engineer building models and systems for AI, with earlier work across physics, optical computing, and stochastic thermodynamics." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/site.css" />
+  </head>
+  <body>
+    
+    <div class="shell">
+      <header class="site-header">
+        <a class="wordmark" href="/">Jannes Gladrow</a>
+        <nav>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="/cv/">CV</a>
+        </nav>
+      </header>
 
-<div class="navbar-wrapper">
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="navbar-container">
-      <div class="navbar-header page-scroll">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#page-top" id="i18_title"><span data-i18n="website.title">{{ site.title }}</span></a>
-      </div>
-      <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right" id="i18_navbar">
-          {% for section in site.data.landing %}
-          <li>
-            {% if section.page %}
-              <a class="page-scroll" href="{{ section.page}} ">
-            {% else %}
-              <a class="page-scroll" href="{{ section.id | prepend: '#'}} ">
-            {% endif %}
-              <span data-i18n="{{ section.i18n }}">{{ section.name }}</span>
-            </a>
-          </li>
-          {% endfor %}
-          {% for language in site.data.index.language %}
-          <li>
-            <a id="set_lang_{{ language.locale }}" class="btn btn-sm set_{{ language.locale }}" data-locale="{{ language.locale }}">
-              <img src="{{ language.flag | prepend: site.baseurl }}" height="16" width="16">
-            </a>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
+      <main>
+        <section class="hero">
+          <p class="eyebrow">London</p>
+          <h1>Jannes Gladrow</h1>
+          <p class="headline">ML engineer building models and systems for AI, with earlier work across physics, optical computing, and stochastic thermodynamics.</p>
+          <div class="intro"><p>I work on machine learning systems and model research. My recent work spans large-scale language modeling, fixed-point models, and optical approaches to AI inference.</p><p>Previously I was at Microsoft Research Cambridge and before that I did a PhD in Cambridge on stochastic thermodynamics, optical tweezers, and machine learning.</p></div>
+          <div class="button-row"><a class="button" href="https://github.com/JamesGlare">GitHub</a><a class="button" href="https://scholar.google.de/citations?user=Kvy6GHYAAAAJ">Google Scholar</a><a class="button" href="https://www.linkedin.com/in/jannes-gladrow">LinkedIn</a><a class="button" href="mailto:jannesgla@gmail.com">Email</a><a class="button" href="/cv/">CV</a></div>
+        </section>
+
+        <section id="projects" class="section">
+          <div class="section-heading">
+            <p class="eyebrow">Selected work</p>
+            <h2>Projects</h2>
+          </div>
+          <div class="card-grid">
+            
+            <article class="card">
+              <h3>Analog optical computer for AI inference</h3>
+              <p>A compute architecture that combines optics and analog computation to improve efficiency for AI inference and certain optimization problems, alongside model designs that fit the machine.</p>
+              <div class="card-links"><a href="https://www.nature.com/articles/s41586-025-09430-z">Nature</a></div>
+            </article>
+            
+
+            <article class="card">
+              <h3>Implicit language models are RNNs</h3>
+              <p>Work on implicit state-space models that recover non-linear state transitions with more parallelizable training, scaled to reasoning tasks and large language-model pretraining.</p>
+              <div class="card-links"><a href="https://openreview.net/forum?id=5EbiopWH6e">OpenReview</a></div>
+            </article>
+            
+
+            <article class="card">
+              <h3>Inverse digital holography using conditional generative models</h3>
+              <p>Conditional generative modeling for phase retrieval in digital holography, aimed at finding holograms that produce small laser patterns with high accuracy.</p>
+              <div class="card-links"><a href="https://arxiv.org/abs/1911.00904">Preprint</a> <a href="https://github.com/JamesGlare/Neural-Net-LabView-DLL">Code</a></div>
+            </article>
+            
+
+            <article class="card">
+              <h3>Faster-than-free-diffusion reaction rates</h3>
+              <p>Experimental work on tuned barrier shapes showing regimes where reaction rates can increase rather than decrease with barrier height, against the usual Arrhenius intuition.</p>
+              <div class="card-links"><a href="https://www.pnas.org/content/early/2019/12/13/1910677116">Paper</a> <a href="https://www.pnas.org/content/early/2020/01/13/1921425117.full">Commentary</a></div>
+            </article>
+            
+
+            <article class="card">
+              <h3>Symmetry breaking of transition-path times</h3>
+              <p>Experimental and theoretical work on when fundamental inversion symmetries in first-passage and transition-path dynamics hold, and how they break down on mesoscopic and molecular scales.</p>
+              <div class="card-links"><a href="https://www.nature.com/articles/s41467-018-07873-9">Nature Communications</a></div>
+            </article>
+            
+
+            <article class="card">
+              <h3>Broken detailed balance in living and active systems</h3>
+              <p>A line of work on non-equilibrium dynamics in biological and active-matter systems, including broken detailed balance in living systems and active filament networks.</p>
+              <div class="card-links"><a href="https://iopscience.iop.org/article/10.1088/1361-6633/aab3ed/meta">Reports on Progress in Physics</a> <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.116.248301">PRL</a> <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.96.022408">PRE</a></div>
+            </article>
+            
+          </div>
+        </section>
+
+        <section id="experience" class="section">
+          <div class="section-heading">
+            <p class="eyebrow">Career</p>
+            <h2>Experience</h2>
+          </div>
+          <div class="timeline">
+            
+            <article class="timeline-item">
+              <div class="timeline-meta">Oct 2025 to present</div>
+              <div>
+                <h3>ML Engineer</h3>
+                <div class="timeline-org">Meta AI, London</div>
+                <p>Working on ML systems and models.</p>
+              </div>
+            </article>
+            
+
+            <article class="timeline-item">
+              <div class="timeline-meta">Sep 2020 to Oct 2025</div>
+              <div>
+                <h3>Machine Learning Researcher</h3>
+                <div class="timeline-org">Microsoft Research Cambridge</div>
+                <p>Research engineering on ML systems, infrastructure, and model work.</p>
+              </div>
+            </article>
+            
+
+            <article class="timeline-item">
+              <div class="timeline-meta">Sep 2019 to Sep 2020</div>
+              <div>
+                <h3>AI Resident</h3>
+                <div class="timeline-org">Microsoft Research Cambridge</div>
+                <p>Worked on a customer-facing recommendation system based on NLP, alongside physics and computer-vision research projects.</p>
+              </div>
+            </article>
+            
+
+            <article class="timeline-item">
+              <div class="timeline-meta">Oct 2015 to Sep 2019</div>
+              <div>
+                <h3>PhD Student</h3>
+                <div class="timeline-org">University of Cambridge</div>
+                <p>PhD in stochastic thermodynamics, optical tweezers, and machine learning, supported by Winton and Marie Skłodowska-Curie scholarships.</p>
+              </div>
+            </article>
+            
+          </div>
+        </section>
+      </main>
     </div>
-  </nav>
-</div>
-{% if site.index_carousel %}
-{% include carousel.html %}
-{% endif %}
-
-{% for section in site.data.landing %}
-{% assign loopindex = forloop.index | modulo: 2 %}
-<section id="{{ section.id }}" class="features {% if loopindex != 1 %} gray-section {% endif %} {{ section.css }}" style="margin-top: 0;">
-  {% include sections/{{section.tpl}} %}
-</section>
-{% endfor %}
-<style>
-iframe {
-  -moz-transform: scale(0.25, 0.25);
-  -webkit-transform: scale(0.25, 0.25);
-  -o-transform: scale(0.25, 0.25);
-  -ms-transform: scale(0.25, 0.25);
-  transform: scale(0.25, 0.25);
-  -moz-transform-origin: top left;
-  -webkit-transform-origin: top left;
-  -o-transform-origin: top left;
-  -ms-transform-origin: top left;
-  transform-origin: top left;
-}
-</style>
-<!-- <iframe src="https://www.maimemo.com/share/page/?uid=779139&pid=660" style="display: none;"></iframe> -->
+    
+  </body>
+</html>

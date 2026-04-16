@@ -1,0 +1,112 @@
+{
+  "person": {
+    "name": "Jannes Gladrow",
+    "headline": "ML engineer building models and systems for AI, with earlier work across physics, optical computing, and stochastic thermodynamics.",
+    "location": "London",
+    "intro": [
+      "I work on machine learning systems and model research. My recent work spans large-scale language modeling, fixed-point models, and optical approaches to AI inference.",
+      "Previously I was at Microsoft Research Cambridge and before that I did a PhD in Cambridge on stochastic thermodynamics, optical tweezers, and machine learning."
+    ],
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/JamesGlare" },
+      { "label": "Google Scholar", "url": "https://scholar.google.de/citations?user=Kvy6GHYAAAAJ" },
+      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/jannes-gladrow" },
+      { "label": "Email", "url": "mailto:jannesgla@gmail.com" },
+      { "label": "CV", "url": "/cv/" }
+    ]
+  },
+  "projects": [
+    {
+      "title": "Analog optical computer for AI inference",
+      "summary": "A compute architecture that combines optics and analog computation to improve efficiency for AI inference and certain optimization problems, alongside model designs that fit the machine.",
+      "links": [
+        { "label": "Nature", "url": "https://www.nature.com/articles/s41586-025-09430-z" }
+      ]
+    },
+    {
+      "title": "Implicit language models are RNNs",
+      "summary": "Work on implicit state-space models that recover non-linear state transitions with more parallelizable training, scaled to reasoning tasks and large language-model pretraining.",
+      "links": [
+        { "label": "OpenReview", "url": "https://openreview.net/forum?id=5EbiopWH6e" }
+      ]
+    },
+    {
+      "title": "Inverse digital holography using conditional generative models",
+      "summary": "Conditional generative modeling for phase retrieval in digital holography, aimed at finding holograms that produce small laser patterns with high accuracy.",
+      "links": [
+        { "label": "Preprint", "url": "https://arxiv.org/abs/1911.00904" },
+        { "label": "Code", "url": "https://github.com/JamesGlare/Neural-Net-LabView-DLL" }
+      ]
+    },
+    {
+      "title": "Faster-than-free-diffusion reaction rates",
+      "summary": "Experimental work on tuned barrier shapes showing regimes where reaction rates can increase rather than decrease with barrier height, against the usual Arrhenius intuition.",
+      "links": [
+        { "label": "Paper", "url": "https://www.pnas.org/content/early/2019/12/13/1910677116" },
+        { "label": "Commentary", "url": "https://www.pnas.org/content/early/2020/01/13/1921425117.full" }
+      ]
+    },
+    {
+      "title": "Symmetry breaking of transition-path times",
+      "summary": "Experimental and theoretical work on when fundamental inversion symmetries in first-passage and transition-path dynamics hold, and how they break down on mesoscopic and molecular scales.",
+      "links": [
+        { "label": "Nature Communications", "url": "https://www.nature.com/articles/s41467-018-07873-9" }
+      ]
+    },
+    {
+      "title": "Broken detailed balance in living and active systems",
+      "summary": "A line of work on non-equilibrium dynamics in biological and active-matter systems, including broken detailed balance in living systems and active filament networks.",
+      "links": [
+        { "label": "Reports on Progress in Physics", "url": "https://iopscience.iop.org/article/10.1088/1361-6633/aab3ed/meta" },
+        { "label": "PRL", "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.116.248301" },
+        { "label": "PRE", "url": "https://journals.aps.org/pre/abstract/10.1103/PhysRevE.96.022408" }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "org": "Meta AI, London",
+      "role": "ML Engineer",
+      "date": "Oct 2025 to present",
+      "summary": "Working on ML systems and models."
+    },
+    {
+      "org": "Microsoft Research Cambridge",
+      "role": "Machine Learning Researcher",
+      "date": "Sep 2020 to Oct 2025",
+      "summary": "Research engineering on ML systems, infrastructure, and model work."
+    },
+    {
+      "org": "Microsoft Research Cambridge",
+      "role": "AI Resident",
+      "date": "Sep 2019 to Sep 2020",
+      "summary": "Worked on a customer-facing recommendation system based on NLP, alongside physics and computer-vision research projects."
+    },
+    {
+      "org": "University of Cambridge",
+      "role": "PhD Student",
+      "date": "Oct 2015 to Sep 2019",
+      "summary": "PhD in stochastic thermodynamics, optical tweezers, and machine learning, supported by Winton and Marie Skłodowska-Curie scholarships."
+    }
+  ],
+  "education": [
+    {
+      "org": "Georg-August University Göttingen",
+      "role": "MSc Physics",
+      "date": "2013 to 2015",
+      "summary": "Minor in computer science. Thesis in non-equilibrium thermodynamics."
+    },
+    {
+      "org": "École Normale Supérieure, Paris",
+      "role": "Exchange year",
+      "date": "2012 to 2013",
+      "summary": "M1 ICFP, including a six-month programming internship at Institut Curie."
+    },
+    {
+      "org": "Georg-August University Göttingen",
+      "role": "BSc Physics",
+      "date": "2009 to 2012",
+      "summary": "Minor in computer science. Thesis in theoretical neuroscience."
+    }
+  ]
+}
