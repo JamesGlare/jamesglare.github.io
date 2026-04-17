@@ -27,7 +27,7 @@
       "title": "Implicit language models are RNNs",
       "summary": "Work on implicit state-space models that recover non-linear state transitions with more parallelizable training, scaled to reasoning tasks and large language-model pretraining.",
       "links": [
-        { "label": "OpenReview", "url": "https://openreview.net/forum?id=5EbiopWH6e" }
+        { "label": "ICML 2025 (Spotlight)", "url": "https://openreview.net/forum?id=5EbiopWH6e" }
       ]
     },
     {
