@@ -1,7 +1,7 @@
 {
   "person": {
     "name": "Jannes Gladrow",
-    "headline": "ML engineer building models and systems for AI, with earlier work across physics, optical computing for drastic FLOPs/W improvements in AI inference, and stochastic thermodynamics.",
+    "headline": "ML engineer building models and systems for AI, with earlier work across physics, novel AI accelerators, and stochastic thermodynamics.",
     "location": "London",
     "intro": [
       "I work on machine learning systems and model research. My recent work spans post-training, agentic harnesses, large-scale language modeling, fixed-point models, and optical computing for drastic FLOPs/W improvements in AI inference.",
