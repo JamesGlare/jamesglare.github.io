@@ -160,6 +160,29 @@ h3 {
   margin-top: 16px;
 }
 
+.compact-card p {
+  margin-top: 8px;
+}
+
+.publication-list {
+  display: grid;
+  gap: 14px;
+}
+
+.publication {
+  padding: 18px 0;
+  border-top: 1px solid var(--border);
+}
+
+.publication h3 {
+  margin: 0;
+}
+
+.publication-meta {
+  margin: 8px 0 0;
+  color: var(--muted);
+}
+
 .timeline {
   display: grid;
   gap: 16px;

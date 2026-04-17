@@ -63,6 +63,38 @@
       ]
     }
   ],
+  "publications": [
+    {
+      "title": "Analog optical computing for AI inference",
+      "meta": "Nature, 2025",
+      "url": "https://www.nature.com/articles/s41586-025-09430-z"
+    },
+    {
+      "title": "Implicit language models are RNNs: balancing parallelization and expressivity",
+      "meta": "ICML / OpenReview",
+      "url": "https://openreview.net/forum?id=5EbiopWH6e"
+    },
+    {
+      "title": "Inverse digital holography using conditional generative models",
+      "meta": "arXiv, 2019",
+      "url": "https://arxiv.org/abs/1911.00904"
+    },
+    {
+      "title": "Faster-than-free-diffusion reaction rates",
+      "meta": "PNAS, 2019",
+      "url": "https://www.pnas.org/content/early/2019/12/13/1910677116"
+    },
+    {
+      "title": "Experimental evidence of symmetry breaking of transition-path times",
+      "meta": "Nature Communications, 2019",
+      "url": "https://www.nature.com/articles/s41467-018-07873-9"
+    },
+    {
+      "title": "Broken detailed balance and non-equilibrium dynamics in living systems",
+      "meta": "Reports on Progress in Physics, 2018",
+      "url": "https://iopscience.iop.org/article/10.1088/1361-6633/aab3ed/meta"
+    }
+  ],
   "experience": [
     {
       "org": "Meta AI, London",
@@ -87,6 +119,18 @@
       "role": "PhD Student",
       "date": "Oct 2015 to Sep 2019",
       "summary": "PhD in stochastic thermodynamics, optical tweezers, and machine learning, supported by Winton and Marie Skłodowska-Curie scholarships."
+    },
+    {
+      "org": "nanoTemper Technologies, Munich",
+      "role": "R&D Intern",
+      "date": "Jun 2015 to Sep 2015",
+      "summary": "Rapid prototyping of measurement devices for protein characterisation."
+    },
+    {
+      "org": "Penn State University",
+      "role": "Research Intern",
+      "date": "Aug 2011 to Oct 2011",
+      "summary": "Developed LEED correction algorithms in Python."
     }
   ],
   "education": [
@@ -107,6 +151,23 @@
       "role": "BSc Physics",
       "date": "2009 to 2012",
       "summary": "Minor in computer science. Thesis in theoretical neuroscience."
+    }
+  ],
+  "links": [
+    {
+      "title": "GitHub",
+      "description": "Code and repositories",
+      "url": "https://github.com/JamesGlare"
+    },
+    {
+      "title": "Google Scholar",
+      "description": "Publications and citations",
+      "url": "https://scholar.google.de/citations?user=Kvy6GHYAAAAJ"
+    },
+    {
+      "title": "LinkedIn",
+      "description": "Professional profile",
+      "url": "https://www.linkedin.com/in/jannes-gladrow"
     }
   ]
 }

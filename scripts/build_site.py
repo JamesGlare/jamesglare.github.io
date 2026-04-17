@@ -42,6 +42,34 @@ def render_project_cards(projects):
     return "\n".join(cards)
 
 
+def render_publications(items):
+    blocks = []
+    for item in items:
+        blocks.append(
+            f"""
+            <article class=\"publication\">
+              <h3><a href=\"{h(item['url'])}\">{h(item['title'])}</a></h3>
+              <p class=\"publication-meta\">{h(item['meta'])}</p>
+            </article>
+            """
+        )
+    return "\n".join(blocks)
+
+
+def render_link_cards(items):
+    blocks = []
+    for item in items:
+        blocks.append(
+            f"""
+            <article class=\"card compact-card\">
+              <h3><a href=\"{h(item['url'])}\">{h(item['title'])}</a></h3>
+              <p>{h(item['description'])}</p>
+            </article>
+            """
+        )
+    return "\n".join(blocks)
+
+
 def render_timeline(items):
     blocks = []
     for item in items:
@@ -89,6 +117,7 @@ def build_index(data):
         <a class=\"wordmark\" href=\"/\">{h(person['name'])}</a>
         <nav>
           <a href=\"#projects\">Projects</a>
+          <a href=\"#publications\">Publications</a>
           <a href=\"#experience\">Experience</a>
           <a href=\"/cv/\">CV</a>
         </nav>
@@ -113,6 +142,16 @@ def build_index(data):
           </div>
         </section>
 
+        <section id=\"publications\" class=\"section\">
+          <div class=\"section-heading\">
+            <p class=\"eyebrow\">Papers</p>
+            <h2>Selected publications</h2>
+          </div>
+          <div class=\"publication-list\">
+            {render_publications(data['publications'])}
+          </div>
+        </section>
+
         <section id=\"experience\" class=\"section\">
           <div class=\"section-heading\">
             <p class=\"eyebrow\">Career</p>
@@ -120,6 +159,16 @@ def build_index(data):
           </div>
           <div class=\"timeline\">
             {render_timeline(data['experience'])}
+          </div>
+        </section>
+
+        <section class=\"section\">
+          <div class=\"section-heading\">
+            <p class=\"eyebrow\">Elsewhere</p>
+            <h2>Links</h2>
+          </div>
+          <div class=\"card-grid card-grid-links\">
+            {render_link_cards(data['links'])}
           </div>
         </section>
       </main>
@@ -161,6 +210,13 @@ def build_cv(data):
             <h2>Education</h2>
           </div>
           <div class=\"timeline\">{render_timeline(data['education'])}</div>
+        </section>
+
+        <section class=\"section\">
+          <div class=\"section-heading\">
+            <h2>Selected publications</h2>
+          </div>
+          <div class=\"publication-list\">{render_publications(data['publications'])}</div>
         </section>
       </main>
     </div>
