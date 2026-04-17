@@ -1,10 +1,10 @@
 {
   "person": {
     "name": "Jannes Gladrow",
-    "headline": "ML engineer building models and systems for AI, with earlier work across physics, optical computing, and stochastic thermodynamics.",
+    "headline": "ML engineer building models and systems for AI, with earlier work across physics, optical computing for drastic FLOPs/W improvements in AI inference, and stochastic thermodynamics.",
     "location": "London",
     "intro": [
-      "I work on machine learning systems and model research. My recent work spans large-scale language modeling, fixed-point models, and optical approaches to AI inference.",
+      "I work on machine learning systems and model research. My recent work spans post-training, agentic harnesses, large-scale language modeling, fixed-point models, and optical computing for drastic FLOPs/W improvements in AI inference.",
       "Previously I was at Microsoft Research Cambridge and before that I did a PhD in Cambridge on stochastic thermodynamics, optical tweezers, and machine learning."
     ],
     "links": [
@@ -100,7 +100,7 @@
       "org": "Meta AI, London",
       "role": "ML Engineer",
       "date": "Oct 2025 to present",
-      "summary": "Working on ML systems and models."
+      "summary": "Working on post-training, agentic harnesses, and ML systems for frontier models."
     },
     {
       "org": "Microsoft Research Cambridge",
