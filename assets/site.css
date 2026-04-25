@@ -71,6 +71,33 @@ a {
   padding: 92px 0 54px;
 }
 
+.hero-with-symbol {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 176px;
+  gap: 36px;
+  align-items: start;
+}
+
+.hero-copy {
+  min-width: 0;
+}
+
+.hero-symbol {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 18px;
+  opacity: 0.92;
+}
+
+.hero-symbol img {
+  width: 176px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  filter: drop-shadow(0 8px 24px rgba(0, 0, 0, 0.25));
+}
+
 .eyebrow {
   margin: 0 0 10px;
   color: var(--accent-2);
@@ -259,6 +286,21 @@ h3 {
 
   .hero {
     padding-top: 72px;
+  }
+
+  .hero-with-symbol {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .hero-symbol {
+    order: -1;
+    justify-content: flex-start;
+    padding-top: 0;
+  }
+
+  .hero-symbol img {
+    width: 120px;
   }
 
   .card-grid {
