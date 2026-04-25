@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Symbol lab v2</title>
+    <style>
+      :root {
+        --bg: #0c0f14;
+        --panel: #131923;
+        --text: #eef2f7;
+        --muted: #8792a8;
+        --border: rgba(255,255,255,0.08);
+      }
+      * { box-sizing: border-box; }
+      body { margin: 0; font-family: Inter, system-ui, sans-serif; background: radial-gradient(circle at top, #162131 0, var(--bg) 44%); color: var(--text); }
+      main { width: min(1080px, calc(100% - 32px)); margin: 0 auto; padding: 48px 0 64px; }
+      h1 { font-size: clamp(2rem, 5vw, 3.3rem); margin: 0; letter-spacing: -0.04em; }
+      p.lead { max-width: 780px; color: var(--muted); margin: 16px 0 0; line-height: 1.7; }
+      .back { display: inline-block; margin-top: 14px; color: #b5f0d0; text-decoration: none; }
+      .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; margin-top: 34px; }
+      .card { background: linear-gradient(180deg, #131923, #1a2230); border: 1px solid var(--border); border-radius: 22px; padding: 18px; }
+      img { width: 100%; height: auto; display: block; border-radius: 18px; }
+      .meta { margin-top: 14px; }
+      .family { margin: 0 0 8px; color: #b5f0d0; text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.78rem; }
+      h3 { margin: 0; font-size: 1.05rem; }
+      code { display: block; margin-top: 8px; color: var(--muted); font-size: 0.84rem; }
+      .notes { margin-top: 32px; padding: 18px 20px; border-radius: 18px; border: 1px solid var(--border); background: rgba(255,255,255,0.02); color: var(--muted); line-height: 1.7; }
+      @media (max-width: 760px) { .grid { grid-template-columns: 1fr; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Symbol lab v2</h1>
+      <p class="lead">Second pass around the symbols Jannes liked most: broken rings, contour bands, Lissajous loops, nested cells, and spiral attractors. Each family now has two more deliberate variants so we can identify what feels best before placing anything on the homepage.</p>
+      <a class="back" href="/symbol-lab/">← back to v1 sheet</a>
+      <section class="grid"><article class="card">
+  <img src="assets/rings-a.svg" alt="Broken rings Variant A" loading="lazy" />
+  <div class="meta">
+    <p class="family">Broken rings</p>
+    <h3>Variant A</h3>
+    <code>rings-a</code>
+  </div>
+</article><article class="card">
+  <img src="assets/rings-b.svg" alt="Broken rings Variant B" loading="lazy" />
+  <div class="meta">
+    <p class="family">Broken rings</p>
+    <h3>Variant B</h3>
+    <code>rings-b</code>
+  </div>
+</article><article class="card">
+  <img src="assets/contours-a.svg" alt="Contour bands Variant A" loading="lazy" />
+  <div class="meta">
+    <p class="family">Contour bands</p>
+    <h3>Variant A</h3>
+    <code>contours-a</code>
+  </div>
+</article><article class="card">
+  <img src="assets/contours-b.svg" alt="Contour bands Variant B" loading="lazy" />
+  <div class="meta">
+    <p class="family">Contour bands</p>
+    <h3>Variant B</h3>
+    <code>contours-b</code>
+  </div>
+</article><article class="card">
+  <img src="assets/lissajous-a.svg" alt="Lissajous loop Variant A" loading="lazy" />
+  <div class="meta">
+    <p class="family">Lissajous loop</p>
+    <h3>Variant A</h3>
+    <code>lissajous-a</code>
+  </div>
+</article><article class="card">
+  <img src="assets/lissajous-b.svg" alt="Lissajous loop Variant B" loading="lazy" />
+  <div class="meta">
+    <p class="family">Lissajous loop</p>
+    <h3>Variant B</h3>
+    <code>lissajous-b</code>
+  </div>
+</article><article class="card">
+  <img src="assets/cells-a.svg" alt="Nested cells Variant A" loading="lazy" />
+  <div class="meta">
+    <p class="family">Nested cells</p>
+    <h3>Variant A</h3>
+    <code>cells-a</code>
+  </div>
+</article><article class="card">
+  <img src="assets/cells-b.svg" alt="Nested cells Variant B" loading="lazy" />
+  <div class="meta">
+    <p class="family">Nested cells</p>
+    <h3>Variant B</h3>
+    <code>cells-b</code>
+  </div>
+</article><article class="card">
+  <img src="assets/spiral-a.svg" alt="Spiral attractor Variant A" loading="lazy" />
+  <div class="meta">
+    <p class="family">Spiral attractor</p>
+    <h3>Variant A</h3>
+    <code>spiral-a</code>
+  </div>
+</article><article class="card">
+  <img src="assets/spiral-b.svg" alt="Spiral attractor Variant B" loading="lazy" />
+  <div class="meta">
+    <p class="family">Spiral attractor</p>
+    <h3>Variant B</h3>
+    <code>spiral-b</code>
+  </div>
+</article></section>
+      <section class="notes">Recommendation: pick 1 to 2 families that feel most like your site, then I will unify them even harder and test an actual placement. My guess is broken rings + contour bands or broken rings + nested cells.</section>
+    </main>
+  </body>
+</html>
