@@ -74,7 +74,7 @@ a {
 .hero-with-symbol {
   position: relative;
   display: block;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .hero-copy {
@@ -86,7 +86,7 @@ a {
 .hero-symbol {
   position: absolute;
   top: 8px;
-  right: -76px;
+  right: -24px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
