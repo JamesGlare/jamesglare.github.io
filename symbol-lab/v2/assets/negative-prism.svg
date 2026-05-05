@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 160" fill="none">
   <defs>
-    <linearGradient id="prismGlass" x1="79" y1="36" x2="146" y2="124" gradientUnits="userSpaceOnUse">
+    <linearGradient id="prismGlass" x1="58" y1="34" x2="162" y2="128" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#f6f2f5" stop-opacity="0.18"/>
       <stop offset="0.48" stop-color="#f1d7e5" stop-opacity="0.08"/>
       <stop offset="1" stop-color="#9ca3af" stop-opacity="0.2"/>
     </linearGradient>
-    <linearGradient id="edgeGlow" x1="68" y1="121" x2="151" y2="35" gradientUnits="userSpaceOnUse">
+    <linearGradient id="edgeGlow" x1="58" y1="128" x2="162" y2="38" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#f0a9c8" stop-opacity="0.72"/>
       <stop offset="0.46" stop-color="#edf0f4" stop-opacity="0.9"/>
       <stop offset="1" stop-color="#9aa1ad" stop-opacity="0.68"/>
@@ -80,9 +80,9 @@
     }
   </style>
 
-  <path class="ghost" d="M76 122 L110 38 L151 121 Z" fill="url(#prismGlass)" filter="url(#softGhost)"/>
-  <path d="M76 122 L110 38 L151 121 Z" fill="url(#prismGlass)" stroke="url(#edgeGlow)" stroke-width="1.65" stroke-linejoin="round"/>
-  <path d="M88 115 L111 58 L139 115 Z" stroke="#f8fbff" stroke-opacity="0.18" stroke-width="0.9" stroke-linejoin="round"/>
+  <path class="ghost" d="M58 128 L110 38 L162 128 Z" fill="url(#prismGlass)" filter="url(#softGhost)"/>
+  <path d="M58 128 L110 38 L162 128 Z" fill="url(#prismGlass)" stroke="url(#edgeGlow)" stroke-width="1.65" stroke-linejoin="round"/>
+  <path d="M76 118 L110 59 L144 118 Z" stroke="#f8fbff" stroke-opacity="0.18" stroke-width="0.9" stroke-linejoin="round"/>
 
   <path class="ray" d="M8 82 C30 79, 54 78, 84 79" stroke="url(#rayIn)" stroke-width="2.1" stroke-dasharray="14 12"/>
   <path class="ray ray-delay-1" d="M9 91 C35 88, 58 84, 84 79" stroke="url(#rayIn)" stroke-width="1.15" stroke-dasharray="10 12"/>

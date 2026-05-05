@@ -86,7 +86,7 @@ a {
 .hero-symbol {
   position: absolute;
   top: 8px;
-  right: -54px;
+  right: -76px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -95,7 +95,7 @@ a {
 }
 
 .hero-symbol img {
-  width: 220px;
+  width: 270px;
   max-width: 100%;
   height: auto;
   display: block;
@@ -298,12 +298,12 @@ h3 {
 
   .hero-symbol {
     top: 0;
-    right: -38px;
+    right: -58px;
     opacity: 0.2;
   }
 
   .hero-symbol img {
-    width: 154px;
+    width: 184px;
   }
 
   .card-grid {
