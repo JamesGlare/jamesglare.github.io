@@ -298,12 +298,12 @@ h3 {
 
   .hero-symbol {
     top: 0;
-    right: -58px;
-    opacity: 0.2;
+    right: -34px;
+    opacity: 0.18;
   }
 
   .hero-symbol img {
-    width: 184px;
+    width: 164px;
   }
 
   .card-grid {
