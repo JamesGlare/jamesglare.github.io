@@ -91,7 +91,7 @@ a {
   justify-content: center;
   align-items: flex-start;
   pointer-events: none;
-  opacity: 0.28;
+  opacity: 0.32;
 }
 
 .hero-symbol img {
@@ -299,7 +299,7 @@ h3 {
   .hero-symbol {
     top: 0;
     right: -34px;
-    opacity: 0.18;
+    opacity: 0.21;
   }
 
   .hero-symbol img {

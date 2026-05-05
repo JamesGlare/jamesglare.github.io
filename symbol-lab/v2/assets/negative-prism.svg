@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 160" fill="none">
   <defs>
     <linearGradient id="prismGlass" x1="58" y1="34" x2="162" y2="128" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#f6f2f5" stop-opacity="0.18"/>
-      <stop offset="0.48" stop-color="#f1d7e5" stop-opacity="0.08"/>
-      <stop offset="1" stop-color="#9ca3af" stop-opacity="0.2"/>
+      <stop offset="0" stop-color="#f6f2f5" stop-opacity="0.22"/>
+      <stop offset="0.48" stop-color="#f1d7e5" stop-opacity="0.11"/>
+      <stop offset="1" stop-color="#9ca3af" stop-opacity="0.24"/>
     </linearGradient>
     <linearGradient id="edgeGlow" x1="58" y1="128" x2="162" y2="38" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#f0a9c8" stop-opacity="0.72"/>
@@ -83,6 +83,9 @@
   <path class="ghost" d="M58 128 L110 38 L162 128 Z" fill="url(#prismGlass)" filter="url(#softGhost)"/>
   <path d="M58 128 L110 38 L162 128 Z" fill="url(#prismGlass)" stroke="url(#edgeGlow)" stroke-width="1.65" stroke-linejoin="round"/>
   <path d="M76 118 L110 59 L144 118 Z" stroke="#f8fbff" stroke-opacity="0.18" stroke-width="0.9" stroke-linejoin="round"/>
+  <path d="M103 92 H117" stroke="#f3adc9" stroke-opacity="0.46" stroke-width="1.25" stroke-linecap="round"/>
+  <path d="M116 98 C120 101, 124 105, 128 109" stroke="#f8fbff" stroke-opacity="0.18" stroke-width="0.85" stroke-linecap="round"/>
+  <path d="M109 104 C113 107, 117 111, 121 115" stroke="#f8fbff" stroke-opacity="0.14" stroke-width="0.85" stroke-linecap="round"/>
 
   <path class="ray ray-delay-1" d="M8 72 L90.4 72" stroke="url(#rayIn)" stroke-width="1.05" stroke-dasharray="10 12"/>
   <path class="ray ray-delay-1" d="M90.4 72 L135.8 128" stroke="url(#rayInside)" stroke-width="1.05" stroke-dasharray="10 12"/>
@@ -90,6 +93,7 @@
 
   <path class="ray" d="M8 80 L85.7 80" stroke="url(#rayIn)" stroke-width="2.05" stroke-dasharray="14 12"/>
   <path class="ray" d="M85.7 80 L124.7 128" stroke="url(#rayInside)" stroke-width="2.05" stroke-dasharray="14 12"/>
+  <path d="M124.7 128 C143 126, 160 123, 178 118" stroke="#e9edf3" stroke-opacity="0.13" stroke-width="0.9" stroke-dasharray="2 7" stroke-linecap="round"/>
   <path class="ray" d="M124.7 128 L76.2 153.9" stroke="url(#rayExit)" stroke-width="2.05" stroke-dasharray="14 12"/>
 
   <path class="ray ray-delay-3" d="M8 88 L81.1 88" stroke="url(#rayIn)" stroke-width="1.2" stroke-dasharray="8 11"/>
