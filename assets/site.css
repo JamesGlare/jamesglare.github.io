@@ -85,21 +85,21 @@ a {
 
 .hero-symbol {
   position: absolute;
-  top: 16px;
-  right: -18px;
+  top: 8px;
+  right: -54px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   pointer-events: none;
-  opacity: 0.18;
+  opacity: 0.28;
 }
 
 .hero-symbol img {
-  width: 146px;
+  width: 220px;
   max-width: 100%;
   height: auto;
   display: block;
-  filter: blur(0.4px) drop-shadow(0 12px 30px rgba(0, 0, 0, 0.18));
+  filter: blur(0.15px) drop-shadow(0 18px 42px rgba(244, 167, 197, 0.1));
 }
 
 .eyebrow {
@@ -297,13 +297,13 @@ h3 {
   }
 
   .hero-symbol {
-    top: -2px;
-    right: 0;
-    opacity: 0.14;
+    top: 0;
+    right: -38px;
+    opacity: 0.2;
   }
 
   .hero-symbol img {
-    width: 94px;
+    width: 154px;
   }
 
   .card-grid {
