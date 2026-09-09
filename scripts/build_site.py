@@ -164,7 +164,7 @@ def build_index(data):
           <figcaption>Negative refraction <span aria-hidden="true">/</span> n &lt; 0</figcaption>
         </figure>
       </section>
-      <div class="career-strip"><span>Currently <strong>Meta AI</strong></span><span>Previously <strong>Microsoft Research</strong></span><span>PhD <strong>Cambridge</strong></span></div>
+      <div class="career-strip"><span>Currently <strong>Meta AI</strong></span><span>Previously <strong>Microsoft Research</strong></span></div>
       <section id="projects" class="section editorial-section" aria-labelledby="work-title">
         <div class="section-heading"><p class="eyebrow">01 / Research</p><h2 id="work-title">Selected <br>work</h2><p>From learning algorithms to the physical systems that run them.</p></div>
         <div class="section-content">{render_featured(featured)}
