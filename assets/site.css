@@ -45,8 +45,8 @@ h3 { font-size: var(--title); line-height: 1.28; letter-spacing: -.03em; }
 .hero-links .primary-link { border-bottom: 1px solid var(--accent); }
 .hero-links span { margin-left: 12px; color: var(--accent); }
 .hero-visual { margin: 0; position: relative; align-self: stretch; display: flex; flex-direction: column; justify-content: center; }
-.hero-visual::before { content: ''; position: absolute; inset: 7% -5%; background: radial-gradient(ellipse, #dbb0a00b, transparent 68%); pointer-events: none; }
-.hero-visual img { width: 100%; height: auto; opacity: .9; }
+.hero-visual img { width: 100%; height: auto; }
+.hero-visual figcaption span { margin-inline: 9px; color: var(--accent); }
 .hero-visual figcaption { color: var(--muted); font-family: 'IBM Plex Mono', monospace; font-size: .6875rem; line-height: 1.7; letter-spacing: .025em; margin-top: 12px; text-align: center; }
 .career-strip { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 18px; padding-block: 22px; border-block: 1px solid var(--line); font-size: var(--small); color: var(--muted); }
 .career-strip strong { color: var(--text); margin-left: 10px; font-weight: 500; }

@@ -7,7 +7,7 @@
 - Full 17-entry publication archive at `/publications/`.
 - Full experience and education retained at `/cv/`, including print styles.
 - Responsive navigation, keyboard focus states, skip links and reduced-motion support.
-- Existing prism SVG reused unchanged; no generated scientific figures.
+- Prism adapted into `assets/negative-prism.svg`: bone/copper palette, finer static ray paths and faint interface normals. Original symbol-lab asset is unchanged; no raster-generated figures.
 
 ## Build and preview
 

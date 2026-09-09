@@ -160,8 +160,8 @@ def build_index(data):
           <div class="hero-links"><a class="primary-link" href="#projects">Explore my work <span aria-hidden="true">↓</span></a><a href="mailto:jannesgla@gmail.com">Get in touch <span aria-hidden="true">↗</span></a></div>
         </div>
         <figure class="hero-visual">
-          <img src="/symbol-lab/v2/assets/negative-prism.svg" width="440" height="320" alt="Abstract illustration of light refracting through a prism" />
-          <figcaption>Models, matter,<br>and the space between.</figcaption>
+          <img src="/assets/negative-prism.svg" width="440" height="320" alt="Ray paths through a negative-index prism" />
+          <figcaption>Negative refraction <span aria-hidden="true">/</span> n &lt; 0</figcaption>
         </figure>
       </section>
       <div class="career-strip"><span>Currently <strong>Meta AI</strong></span><span>Previously <strong>Microsoft Research</strong></span><span>PhD <strong>Cambridge</strong></span></div>
