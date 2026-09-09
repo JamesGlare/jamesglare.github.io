@@ -179,7 +179,7 @@ def build_index(data):
         <div class="section-heading"><p class="eyebrow">03 / Background</p><h2 id="about-title">Context</h2></div>
         <div class="about-copy section-content">
           <p>At Meta, I work on post-training, agentic harnesses, and systems for frontier models. Before that, I spent six years at Microsoft Research Cambridge, working across machine learning and optical computing.</p>
-          <p>My PhD at Cambridge explored stochastic thermodynamics, optical tweezers, and machine learning—how to understand and control systems shaped by fluctuations.</p>
+          <p>My PhD at Cambridge explored stochastic thermodynamics, optical tweezers, and machine learning, focusing on how to understand and control systems shaped by fluctuations.</p>
           <a class="text-link" href="/cv/">Full experience & education <span aria-hidden="true">↗</span></a>
           <span id="education" class="anchor-target" aria-hidden="true"></span>
         </div>
@@ -193,7 +193,7 @@ def build_publications(data):
     body = f"""<div class="shell shell-narrow">{header(data['person']['name'])}
       <main id="main" class="archive"><section class="archive-hero"><p class="eyebrow">Research archive</p><h1>Publications</h1><p class="headline">Papers across machine learning, optical computing, and stochastic physics.</p><a class="text-link" href="https://scholar.google.de/citations?user=Kvy6GHYAAAAJ">Google Scholar <span aria-hidden="true">↗</span></a></section>
       <div class="publication-list">{render_publications(data['publications'])}</div></main>{footer(data)}</div>"""
-    return page('Jannes Gladrow — Publications',body,'Publications by Jannes Gladrow.')
+    return page('Jannes Gladrow | Publications',body,'Publications by Jannes Gladrow.')
 
 
 def build_cv(data):
@@ -233,7 +233,7 @@ def build_cv(data):
       </main>
     </div>
     """
-    return page(f"{person['name']} — CV", body, f"CV of {person['name']}")
+    return page(f"{person['name']} | CV", body, f"CV of {person['name']}")
 
 
 def clean_page(markup):
