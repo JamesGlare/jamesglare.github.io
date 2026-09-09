@@ -184,7 +184,7 @@ def build_index(data):
           <span id="education" class="anchor-target" aria-hidden="true"></span>
         </div>
       </section>
-      <section class="contact-section" aria-labelledby="contact-title"><p class="eyebrow">Say hello</p><h2 id="contact-title">Let’s compare notes.</h2><a class="contact-link" href="mailto:jannesgla@gmail.com">jannesgla@gmail.com <span aria-hidden="true">↗</span></a></section>
+      <section class="contact-section" aria-labelledby="contact-title"><p class="eyebrow">Say hello</p><h2 id="contact-title">Let’s compare notes.</h2><a class="contact-link" href="mailto:jannesgla@gmail.com">Email me <span aria-hidden="true">↗</span></a></section>
     </main>{footer(data)}</div>"""
     return page(person['name'], body, home['intro'])
 
