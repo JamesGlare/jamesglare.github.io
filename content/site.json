@@ -237,22 +237,16 @@
       "summary": "Working on post-training, agentic harnesses, AI product experiences, and ML systems for frontier models."
     },
     {
-      "date": "Sep 2020 to Oct 2025",
+      "date": "Sep 2019 to Oct 2025",
       "role": "Machine Learning Researcher",
       "org": "Microsoft Research Cambridge",
-      "summary": "Research engineering on ML systems, infrastructure, and model work."
-    },
-    {
-      "date": "Sep 2019 to Sep 2020",
-      "role": "AI Resident",
-      "org": "Microsoft Research Cambridge",
-      "summary": "Worked on a customer-facing recommendation system based on NLP, alongside physics and computer-vision research projects."
+      "summary": "Research across machine learning, optical computing, and ML systems, including a customer-facing NLP recommendation system."
     },
     {
       "date": "Oct 2015 to Sep 2019",
       "role": "PhD Student",
       "org": "University of Cambridge",
-      "summary": "PhD in stochastic thermodynamics, optical tweezers, and machine learning, supported by Winton and Marie Skłodowska-Curie scholarships."
+      "summary": "PhD in stochastic thermodynamics, optical tweezers, and machine learning."
     },
     {
       "date": "Jun 2015 to Sep 2015",
@@ -290,7 +284,7 @@
       "date": "2008",
       "role": "Abitur (A-level equivalent)",
       "org": "Ricarda-Huch-Schule, Braunschweig",
-      "summary": "National winner, Jugend forscht, for interdisciplinary research in holographic data storage."
+      "summary": ""
     }
   ],
   "links": [
@@ -317,5 +311,19 @@
       1,
       4
     ]
-  }
+  },
+  "awards": [
+    {
+      "title": "Jugend forscht national winner",
+      "description": "Interdisciplinary research in holographic data storage."
+    },
+    {
+      "title": "Winton Scholarship",
+      "description": "PhD research funding at the University of Cambridge."
+    },
+    {
+      "title": "Marie Skłodowska-Curie Scholarship",
+      "description": "European Union funding for PhD research."
+    }
+  ]
 }

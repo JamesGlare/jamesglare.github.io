@@ -75,7 +75,7 @@ def render_timeline(items, compact=False):
     blocks = []
     heading = "h4" if compact else "h3"
     for item in items:
-        summary = "" if compact else f"<p>{h(item['summary'])}</p>"
+        summary = "" if compact or not item.get('summary') else f"<p>{h(item['summary'])}</p>"
         blocks.append(
             f"""
             <article class=\"timeline-item\">
@@ -89,6 +89,14 @@ def render_timeline(items, compact=False):
             """
         )
     return "\n".join(blocks)
+
+
+def render_awards(items):
+    awards = "".join(
+        f'<li><strong>{h(item["title"])}</strong><p>{h(item["description"])}</p></li>'
+        for item in items
+    )
+    return f'<section class="section awards" id="awards"><div class="section-heading"><h2>Awards</h2></div><ul>{awards}</ul></section>'
 
 
 def page(title: str, body: str, description: str) -> str:
@@ -150,8 +158,8 @@ def build_index(data):
     home = data['home']
     featured = [data['projects'][i] for i in home['featured_projects']]
     other = [p for i,p in enumerate(data['projects']) if i not in home['featured_projects']]
-    cv_experience = data['experience'][:3]
-    cv_education = [{**data['experience'][3], 'role': 'PhD'}] + data['education'][:3]
+    cv_experience = data['experience'][:2]
+    cv_education = [{**data['experience'][2], 'role': 'PhD'}] + data['education'][:3]
     body = f"""<div class="shell">
     {header(person['name'], home=True)}
     <main id="main">
@@ -164,6 +172,7 @@ def build_index(data):
         </div>
         <figure class="hero-visual">
           <img src="/assets/negative-prism.svg" width="440" height="320" alt="Ray paths through a negative-index prism" />
+          <figcaption>n &lt; 0</figcaption>
         </figure>
       </section>
       <div class="career-strip"><span>Currently <strong>Meta AI</strong></span><span>Previously <strong>Microsoft Research</strong></span></div>
@@ -228,6 +237,8 @@ def build_cv(data):
           </div>
           <div class=\"timeline\">{render_timeline(data['education'])}</div>
         </section>
+
+        {render_awards(data['awards'])}
 
         <section class=\"section\">
           <div class=\"section-heading\">
