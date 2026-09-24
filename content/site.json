@@ -33,7 +33,7 @@
   "projects": [
     {
       "title": "Analog optical computer for AI inference",
-      "summary": "A compute architecture that combines optics and analog computation to improve efficiency for AI inference and certain optimization problems, alongside model designs that fit the machine.",
+      "summary": "I was the AI lead on this project. The architecture combines optics and analog computation to improve efficiency for AI inference and certain optimization problems, alongside model designs that fit the machine.",
       "links": [
         {
           "label": "Nature",
