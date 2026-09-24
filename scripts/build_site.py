@@ -71,17 +71,19 @@ def render_link_cards(items):
     return "\n".join(blocks)
 
 
-def render_timeline(items):
+def render_timeline(items, compact=False):
     blocks = []
+    heading = "h4" if compact else "h3"
     for item in items:
+        summary = "" if compact else f"<p>{h(item['summary'])}</p>"
         blocks.append(
             f"""
             <article class=\"timeline-item\">
               <div class=\"timeline-meta\">{h(item['date'])}</div>
               <div>
-                <h3>{h(item['role'])}</h3>
+                <{heading}>{h(item['role'])}</{heading}>
                 <div class=\"timeline-org\">{h(item['org'])}</div>
-                <p>{h(item['summary'])}</p>
+                {summary}
               </div>
             </article>
             """
@@ -118,7 +120,7 @@ def header(name, home=False):
       <nav aria-label="Main navigation">
         <a href="{prefix}#projects">Work</a>
         <a href="/publications/">Publications</a>
-        <a href="/cv/">CV</a>
+        <a href="{'#cv' if home else '/cv/'}">CV</a>
         <a href="mailto:jannesgla@gmail.com">Contact <span aria-hidden="true">↗</span></a>
       </nav>
     </header>"""
@@ -148,7 +150,8 @@ def build_index(data):
     home = data['home']
     featured = [data['projects'][i] for i in home['featured_projects']]
     other = [p for i,p in enumerate(data['projects']) if i not in home['featured_projects']]
-    selected = [data['publications'][i] for i in home['selected_publications']]
+    cv_experience = data['experience'][:3]
+    cv_education = [{**data['experience'][3], 'role': 'PhD'}] + data['education'][:3]
     body = f"""<div class="shell">
     {header(person['name'], home=True)}
     <main id="main">
@@ -161,7 +164,6 @@ def build_index(data):
         </div>
         <figure class="hero-visual">
           <img src="/assets/negative-prism.svg" width="440" height="320" alt="Ray paths through a negative-index prism" />
-          <figcaption>Negative refraction <span aria-hidden="true">/</span> n &lt; 0</figcaption>
         </figure>
       </section>
       <div class="career-strip"><span>Currently <strong>Meta AI</strong></span><span>Previously <strong>Microsoft Research</strong></span></div>
@@ -169,19 +171,22 @@ def build_index(data):
         <div class="section-heading"><p class="eyebrow">01 / Research</p><h2 id="work-title">Selected <br>work</h2><p>From learning algorithms to the physical systems that run them.</p></div>
         <div class="section-content">{render_featured(featured)}
           <details class="more-work"><summary>More projects <span aria-hidden="true">+</span></summary><div class="card-grid">{render_project_cards(other)}</div></details>
+          <a id="publications" class="text-link publication-archive-link" href="/publications/">All publications <span aria-hidden="true">↗</span></a>
         </div>
       </section>
-      <section id="publications" class="section editorial-section" aria-labelledby="papers-title">
-        <div class="section-heading"><p class="eyebrow">02 / Writing</p><h2 id="papers-title">Selected <br>papers</h2><p><a class="text-link" href="/publications/">All publications <span aria-hidden="true">↗</span></a></p></div>
-        <div class="publication-list section-content">{render_publications(selected)}</div>
+      <section id="cv" class="section editorial-section" aria-labelledby="cv-title">
+        <div class="section-heading"><p class="eyebrow">02 / Background</p><h2 id="cv-title">CV</h2><p>Experience & education.</p><a class="text-link" href="/cv/">Full CV <span aria-hidden="true">↗</span></a></div>
+        <div class="cv-overview section-content">
+          <div id="experience" class="cv-group"><h3>Experience</h3><div class="timeline">{render_timeline(cv_experience, compact=True)}</div></div>
+          <div id="education" class="cv-group"><h3>Education</h3><div class="timeline">{render_timeline(cv_education, compact=True)}</div></div>
+        </div>
       </section>
-      <section id="experience" class="section editorial-section" aria-labelledby="about-title">
-        <div class="section-heading"><p class="eyebrow">03 / Background</p><h2 id="about-title">Context</h2></div>
+      <section id="context" class="section editorial-section" aria-labelledby="about-title">
+        <div class="section-heading"><p class="eyebrow">03 / About</p><h2 id="about-title">Context</h2></div>
         <div class="about-copy section-content">
           <p>At Meta, I work on post-training, agentic harnesses, and systems for frontier models. Before that, I spent six years at Microsoft Research Cambridge, working across machine learning and optical computing.</p>
           <p>My PhD at Cambridge explored stochastic thermodynamics, optical tweezers, and machine learning, focusing on how to understand and control systems shaped by fluctuations.</p>
           <a class="text-link" href="/cv/">Full experience & education <span aria-hidden="true">↗</span></a>
-          <span id="education" class="anchor-target" aria-hidden="true"></span>
         </div>
       </section>
       <section class="contact-section" aria-labelledby="contact-title"><p class="eyebrow">Say hello</p><h2 id="contact-title">Let’s compare notes.</h2><a class="contact-link" href="mailto:jannesgla@gmail.com">Email me <span aria-hidden="true">↗</span></a></section>

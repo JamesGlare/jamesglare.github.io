@@ -3,7 +3,7 @@
 ## Scope
 
 - Shared type scale, restrained dark palette, warm accent, consistent spacing.
-- Homepage: current-work introduction, three featured projects, expandable remaining projects, five selected papers, short background, contact.
+- Homepage: current-work introduction, three featured projects, six expandable projects, a compact CV timeline, short background, contact.
 - Full 17-entry publication archive at `/publications/`.
 - Full experience and education retained at `/cv/`, including print styles.
 - Responsive navigation, keyboard focus states, skip links and reduced-motion support.
@@ -21,6 +21,14 @@ python3 -m http.server 8765
 Edit `content/site.json` for canonical content, `scripts/build_site.py` for templates, and `assets/site.css` for styles. Homepage selections are in the `home` object. Generated pages and a content-hashed CSS URL are rebuilt together.
 
 The previous JSON source lagged behind the generated homepage. The current 17 publications and full experience/education were reconciled into JSON before rebuilding, preserving titles, links and metadata from that page.
+
+## September 24 content update
+
+- Removed the prism caption, preserving the illustration and its mobile visibility rule.
+- Replaced the repeated selected-paper list with a compact experience and education timeline based on the pre-redesign CV. Full CV remains at `/cv/`; the homepage CV navigation now targets `#cv`.
+- Added project summaries for holographic cloud storage, stochastic path probabilities, and molecular intermediates, using existing publication links. The full 17-entry publication archive is unchanged.
+- Preserved `#publications`, `#experience`, and `#education` deep links at their relevant destinations.
+- Updated source templates and canonical JSON, then regenerated all three pages. Visual and browser review artifacts are in the sibling `personal-site-cv-review` directory.
 
 ## Isolation
 

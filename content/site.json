@@ -52,6 +52,20 @@
       ]
     },
     {
+      "title": "Holographic optical storage for the cloud",
+      "summary": "Exploring rewritable holographic storage as an alternative to hard disk drives, combining material experiments, workload-aware system design, and machine learning for data recovery.",
+      "links": [
+        {
+          "label": "Communications Engineering",
+          "url": "https://www.nature.com/articles/s44172-024-00225-0"
+        },
+        {
+          "label": "ACM Transactions on Storage",
+          "url": "https://dl.acm.org/doi/full/10.1145/3708993"
+        }
+      ]
+    },
+    {
       "title": "Inverse digital holography using conditional generative models",
       "summary": "Conditional generative modeling for phase retrieval in digital holography, aimed at finding holograms that produce small laser patterns with high accuracy.",
       "links": [
@@ -76,6 +90,26 @@
         {
           "label": "Commentary",
           "url": "https://www.pnas.org/content/early/2020/01/13/1921425117.full"
+        }
+      ]
+    },
+    {
+      "title": "Measuring stochastic path probabilities",
+      "summary": "A protocol for extracting relative path probabilities from measured particle trajectories, making stochastic actions and the most probable paths across a barrier experimentally accessible.",
+      "links": [
+        {
+          "label": "Physical Review X",
+          "url": "https://link.aps.org/doi/10.1103/PhysRevX.11.031022"
+        }
+      ]
+    },
+    {
+      "title": "Detecting hidden molecular intermediates",
+      "summary": "Using first-passage-time statistics to reveal intermediate states in molecular processes and connect measured transition dynamics to the underlying energy landscape.",
+      "links": [
+        {
+          "label": "Science Advances",
+          "url": "https://www.science.org/doi/10.1126/sciadv.aaz4642"
         }
       ]
     },
@@ -281,14 +315,7 @@
     "featured_projects": [
       0,
       1,
-      3
-    ],
-    "selected_publications": [
-      0,
-      1,
-      8,
-      9,
-      12
+      4
     ]
   }
 }
