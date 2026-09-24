@@ -315,15 +315,18 @@
   "awards": [
     {
       "title": "Jugend forscht national winner",
-      "description": "Interdisciplinary research in holographic data storage."
+      "description": "Interdisciplinary research in holographic data storage.",
+      "year": "2008"
     },
     {
       "title": "Winton Scholarship",
-      "description": "PhD research funding at the University of Cambridge."
+      "description": "PhD research funding at the University of Cambridge.",
+      "year": "2015"
     },
     {
       "title": "Marie Skłodowska-Curie Scholarship",
-      "description": "European Union funding for PhD research."
+      "description": "European Union funding for PhD research.",
+      "year": "2016"
     }
   ]
 }

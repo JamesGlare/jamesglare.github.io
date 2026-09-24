@@ -93,7 +93,7 @@ def render_timeline(items, compact=False):
 
 def render_awards(items):
     awards = "".join(
-        f'<li><strong>{h(item["title"])}</strong><p>{h(item["description"])}</p></li>'
+        f'<li><strong>{h(item["title"])} ({h(item["year"])})</strong><p>{h(item["description"])}</p></li>'
         for item in items
     )
     return f'<section class="section awards" id="awards"><div class="section-heading"><h2>Awards</h2></div><ul>{awards}</ul></section>'
